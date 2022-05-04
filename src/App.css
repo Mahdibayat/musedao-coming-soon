@@ -14,7 +14,7 @@
   margin: auto;
   animation: vertical 300ms;
   animation-iteration-count: 1;
-  animation-delay: 900ms;
+  animation-delay: 1400ms;
   opacity: 0;
   animation-fill-mode: forwards;
 }
@@ -36,7 +36,7 @@
   font-size : 1.6rem;
   animation: unvertical 300ms;
   animation-iteration-count: 1;
-  animation-delay: 1200ms;
+  animation-delay: 1700ms;
   opacity: 0;
   animation-fill-mode: forwards;
 }
@@ -50,7 +50,7 @@
   background-image: linear-gradient(35deg, rgba(255, 255, 255, 0.16), rgba(143, 143, 143, 0.05));
   animation: unvertical 300ms;
   animation-iteration-count: 1;
-  animation-delay: 1600ms;
+  animation-delay: 2100ms;
   opacity: 0;
   animation-fill-mode: forwards;
 }
@@ -116,7 +116,7 @@
   justify-content: center;
   animation: vertical 300ms;
   animation-iteration-count: 1;
-  animation-delay: 500ms;
+  animation-delay: 1000ms;
   opacity: 0;
   animation-fill-mode: forwards;
 }
