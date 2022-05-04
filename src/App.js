@@ -6,6 +6,7 @@ const App = () => {
   useEffect(() => {
     ssCountdown();
   }, []);
+
   return (
     <div className="container">
       <img src="/muse+dao.png" alt="musedao" className="musedao_app" />
