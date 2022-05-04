@@ -5,9 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  color: white;
+  background-color: darkblue;
+  background-image: url("../public/bg-ico-hero.jpg");
+  background-position: bottom;
+  background-size: cover;
 }
