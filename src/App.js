@@ -1,10 +1,24 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import { ssCountdown } from "./timer";
 
+import { css } from "@emotion/react";
+import PacmanLoader from "react-spinners/PacmanLoader";
+
+const override = css`
+  display: block;
+  margin: 0 auto;
+  border-color: red;
+`;
+
 const App = () => {
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     ssCountdown();
+    setTimeout(() => {
+      setLoading(false);
+    }, 2000);
   }, []);
 
   return (
@@ -51,6 +65,19 @@ const App = () => {
           <img src="/telegram.png" alt="" />
         </a>
       </header>
+
+      <div
+        className="loading"
+        style={loading ? { display: "visible" } : { display: "none" }}
+      >
+        <PacmanLoader
+          color={"#fff"}
+          loading={true}
+          css={override}
+          size={30}
+          speedMultiplier={2}
+        />
+      </div>
     </div>
   );
 };
