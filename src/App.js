@@ -23,7 +23,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <img src="/muse+dao.png" alt="musedao" className="musedao_app" />
+      <img src="assets/muse+dao.png" alt="musedao" className="musedao_app" />
 
       <div className="timer_div">
         <div className="s-into__title">
@@ -53,16 +53,16 @@ const App = () => {
 
       <header class="social_area">
         <a href="https://www.muse-dao.co/">
-          <img src="/mdi_web.png" alt="" />
+          <img src="assets/mdi_web.png" alt="" />
         </a>
-        <a href="#">
-          <img src="/discord.png" alt="" />
+        <a href="https://discord.gg/VqdZfM5B6j">
+          <img src="assets/discord.png" alt="" />
         </a>
         <a href="https://twitter.com/muse_token_DAO">
-          <img src="/twitter.png" alt="" />
+          <img src="assets/twitter.png" alt="" />
         </a>
         <a href="https://t.me/musedaoteam">
-          <img src="/telegram.png" alt="" />
+          <img src="assets/telegram.png" alt="" />
         </a>
       </header>
 
