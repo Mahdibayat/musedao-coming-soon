@@ -18,7 +18,7 @@ const App = () => {
     ssCountdown();
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 5000);
   }, []);
 
   return (

@@ -14,7 +14,7 @@
   margin: auto;
   animation: vertical 300ms;
   animation-iteration-count: 1;
-  animation-delay: 2400ms;
+  animation-delay: 5400ms;
   opacity: 0;
   animation-fill-mode: forwards;
 }
@@ -36,7 +36,7 @@
   font-size : 1.6rem;
   animation: unvertical 300ms;
   animation-iteration-count: 1;
-  animation-delay: 2700ms;
+  animation-delay: 5700ms;
   opacity: 0;
   animation-fill-mode: forwards;
 }
@@ -48,7 +48,7 @@
   grid-template-columns: repeat(auto-fit , minmax(100px,1fr));
   animation: unvertical 300ms;
   animation-iteration-count: 1;
-  animation-delay: 3100ms;
+  animation-delay: 6100ms;
   animation-fill-mode: forwards;
   background: rgba(255, 255, 255, 0.4);
   background-blend-mode: overlay;
@@ -118,7 +118,7 @@
   justify-content: center;
   animation: vertical 300ms;
   animation-iteration-count: 1;
-  animation-delay: 2000ms;
+  animation-delay: 5050ms;
   opacity: 0;
   animation-fill-mode: forwards;
 }
