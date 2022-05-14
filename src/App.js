@@ -52,16 +52,24 @@ const App = () => {
       </div>
 
       <header class="social_area">
-        <a href="https://www.muse-dao.co/">
+        <a href="https://www.muse-dao.co/" target="_blank" rel="noreferrer">
           <img src="assets/mdi_web.png" alt="" />
         </a>
-        <a href="https://discord.gg/VqdZfM5B6j">
+        <a
+          href="https://discord.gg/VqdZfM5B6j"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src="assets/discord.png" alt="" />
         </a>
-        <a href="https://twitter.com/muse_token_DAO">
+        <a
+          href="https://twitter.com/muse_token_DAO"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img src="assets/twitter.png" alt="" />
         </a>
-        <a href="https://t.me/musedaoteam">
+        <a href="https://t.me/musedaoteam" target="_blank" rel="noreferrer">
           <img src="assets/telegram.png" alt="" />
         </a>
       </header>
